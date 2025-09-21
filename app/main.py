@@ -16,8 +16,6 @@ class Deck:
 class Ship:
     def __init__(self, start: int, end: int, is_drowned: bool = False) -> None:
         # Create decks and save them to a list `self.decks`
-        self.start = start
-        self.end = end
         self.is_drowned = is_drowned
         self.decks = []
         start_row, start_column = start
